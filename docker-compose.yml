@@ -1,0 +1,13 @@
+version: "3.4"
+services:
+  schoolmanagement:
+    build:
+      context: .
+      dockerfile: SchoolManagement/Dockerfile
+    depends_on:
+      - db
+  db:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+        SA_PASSWORD: "JO@8cx0b6La"
+        ACCEPT_EULA: "Y"

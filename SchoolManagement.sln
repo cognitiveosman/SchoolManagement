@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManagement", "SchoolManagement\SchoolManagement.csproj", "{90C07A7C-2D46-471D-ABFB-440922E1C9F2}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FEEF26B9-3F1F-4637-B75E-C313ECAE8DD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90C07A7C-2D46-471D-ABFB-440922E1C9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C07A7C-2D46-471D-ABFB-440922E1C9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C07A7C-2D46-471D-ABFB-440922E1C9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C07A7C-2D46-471D-ABFB-440922E1C9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEEF26B9-3F1F-4637-B75E-C313ECAE8DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEEF26B9-3F1F-4637-B75E-C313ECAE8DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEEF26B9-3F1F-4637-B75E-C313ECAE8DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEEF26B9-3F1F-4637-B75E-C313ECAE8DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF670409-E600-4312-8A78-62F3F54688B4}
+	EndGlobalSection
+EndGlobal
